@@ -13,7 +13,7 @@
     <!-- general fileoutput -->
     <appender name="FILE"
               class="ch.qos.logback.core.FileAppender">
-        <file>log/smartFarm-all-${byDay}.log</file>
+        <file>log/springBootDemo-all-${byDay}.log</file>
         <encoder>
             <pattern>%date %level [%thread] %msg %logger{30} [%file:%line]%n
             </pattern>

@@ -17,7 +17,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 @SuppressWarnings({ "rawtypes", "unchecked" })
 public class ShiroCache<K, V> implements Cache<K, V> {
 
-    private static final String REDIS_SHIRO_CACHE = "weiyou-shiro-cache:";
+    private static final String REDIS_SHIRO_CACHE = "demo-shiro-cache:";
     private String cacheKey;
     private RedisTemplate<K, V> redisTemplate;
     private long globExpire = 30;
