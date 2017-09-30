@@ -52,12 +52,12 @@ public class LoginController extends BaseAPI {
 	public String loginPage(HttpServletRequest request) throws Exception{
 		String msg = request.getParameter("msg");
 		System.out.println(msg);
-	    return "/login";
+	    return "login";
 	}
 	@GetMapping("/index")
 	public String index() throws Exception{
 	   
-	    return "/index";
+	    return "index";
 	}
 	
 
